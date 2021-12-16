@@ -13,8 +13,8 @@ public class FibonacciCaculation
 
 		for (int i = 1; i <= mathnumber; ++i)
 		{
-			//Display the first 5o numbers in the sequence
-			System.out.print(firstTerm +"\n\n");
+			//Display the first 50 numbers in the sequence
+			System.out.print(firstTerm +"\t");
 		
 			// compute the next term
 			int mathcalc = firstTerm + secondTerm;
